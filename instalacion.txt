@@ -1,0 +1,16 @@
+1.- Descargar Visual code
+2._ Instalar Node JS
+3._ Instalar TypeScript
+  - https://www.typescriptlang.org/index.html#download-links
+  - npm install -g typescript
+  
+  -//En caso de error
+    - $ Get-ExecutionPolicy
+      Restricted
+    - $ Set-ExecutionPolicy Unrestricted
+    - $ [S]
+    - $ Get-ExecutionPolicy
+      Unrestricted
+
+4._ $ tsc nombreDelArchivo.ts
+5.- $ tsc nombreDelArchivo.ts --watch
