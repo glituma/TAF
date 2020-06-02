@@ -121,10 +121,29 @@ console.log(canciones);
 
 //! Fin de Any
 
-*/
 //! Arreglos
-var listaDeNombre = ['Maria', 'Juana', 'Linda', 'Carmen'];
+var listaDeNombre: Array<string> = ['Maria', 'Juana', 'Linda', 'Carmen'];
 console.log(listaDeNombre[1]);
-var listaDeNumeros = [15, 48, 96, 23, 758, 8];
+
+var listaDeNumeros: Array<number> = [15, 48, 96, 23, 758, 8];
 console.log(listaDeNumeros[5]);
+
+interface Alumnos {
+  nombre: string;
+  notas: number;
+}
+var listaDeAlumnos: Array<Alumnos> = [
+  { nombre: 'Gorki', notas: 19 },
+  { nombre: 'Lindka', notas: 18 },
+  { nombre: 'Bubu', notas: 20 },
+];
+
+console.log(
+  'Alumno:',
+  listaDeAlumnos[2].nombre,
+  'su nota es:',
+  listaDeAlumnos[2].notas
+);
+
 //! Fin de los arreglos
+*/
