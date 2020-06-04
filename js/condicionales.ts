@@ -9,3 +9,11 @@ if (deseaImprimir) {
 } else {
   console.log('No te cubre!!!');
 }
+
+var boletosVendidos: number = 51;
+
+if (boletosVendidos > 50) {
+  console.log('Estamos bien muchachos');
+} else {
+  console.log('Algo va mal, muchachos a trabajar mas duro');
+}
