@@ -1,0 +1,39 @@
+/* Pop up sobre el texto */
+tool_tip {
+  background: #ffca28;
+  padding: 2px 3px;
+  font-style: normal;
+  position: relative;
+  cursor: pointer;
+  border-radius: 3px;
+}
+tool_tip::after {
+  content: attr(data-info);
+  display: inline;
+  position: absolute;
+  top: 22px;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  padding: 8px 5px;
+  font-size: 0.8rem;
+  font-family: 'monospace';
+  font-weight: 300;
+  border-radius: 3px;
+  line-height: 15px;
+  text-align: center;
+  background: #ff0025;
+  color: #fff;
+  transition: opacity 0.3s, top 0.2s;
+  pointer-events: none;
+}
+tool_tip:hover {
+  z-index: 99;
+}
+tool_tip:hover::after {
+  top: 1.9rem;
+}
+tool_tip:hover::after {
+  opacity: 1;
+}
+/* Fin del pop up sobre el texto */
