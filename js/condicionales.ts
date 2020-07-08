@@ -1,3 +1,4 @@
+/*
 var cantidadSolicitada: number = 150;
 
 var deseaImprimir: boolean = true;
@@ -10,11 +11,25 @@ if (deseaImprimir) {
   console.log('No te cubre!!!');
 }
 
-var valor: number = 2;
+var boletosVendidos: number = 51;
 
+<<<<<<< HEAD
 switch (valor) {
   case 1: {
     console.log('Uno');
+=======
+if (boletosVendidos > 50) {
+  console.log('Estamos bien muchachos');
+} else {
+  console.log('Algo va mal, muchachos a trabajar mas duro');
+}
+*/
+var valor: number = 4;
+
+switch (valor * 2) {
+  case 4: {
+    console.log('Cuatro');
+>>>>>>> ada40987e2ee5a51ebc33f1e2a8f8e3f7019226a
     break;
   }
   case 2: {
@@ -22,6 +37,7 @@ switch (valor) {
     break;
   }
   default: {
+<<<<<<< HEAD
     console.log('Sin números');
     break;
   }
@@ -64,5 +80,9 @@ switch (menu) {
   }
   default: {
     console.log('El menú no existe');
+=======
+    console.log('Cero');
+    break;
+>>>>>>> ada40987e2ee5a51ebc33f1e2a8f8e3f7019226a
   }
 }

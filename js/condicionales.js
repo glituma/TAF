@@ -1,16 +1,35 @@
-var cantidadSolicitada = 150;
-var deseaImprimir = true;
+/*
+var cantidadSolicitada: number = 150;
+
+var deseaImprimir: boolean = true;
+
 deseaImprimir = cantidadSolicitada < 100;
+
 if (deseaImprimir) {
-    console.log('Tienes un descuento');
+  console.log('Tienes un descuento');
+} else {
+  console.log('No te cubre!!!');
 }
-else {
-    console.log('No te cubre!!!');
+
+var boletosVendidos: number = 51;
+
+if (boletosVendidos > 50) {
+  console.log('Estamos bien muchachos');
+} else {
+  console.log('Algo va mal, muchachos a trabajar mas duro');
 }
+<<<<<<< HEAD
 var valor = 2;
 switch (valor) {
     case 1: {
         console.log('Uno');
+=======
+*/
+var valor = 4;
+switch (valor * 2) {
+    case 4: {
+        console.log('Cuatro');
+>>>>>>> ada40987e2ee5a51ebc33f1e2a8f8e3f7019226a
         break;
     }
     case 2: {
@@ -18,6 +37,7 @@ switch (valor) {
         break;
     }
     default: {
+<<<<<<< HEAD
         console.log('Sin números');
         break;
     }
@@ -55,5 +75,9 @@ switch (menu) {
     }
     default: {
         console.log('El menú no existe');
+=======
+        console.log('Cero');
+        break;
+>>>>>>> ada40987e2ee5a51ebc33f1e2a8f8e3f7019226a
     }
 }
